@@ -1,0 +1,86 @@
+/*
+https://css-tricks.com/theming-with-variables-globals-and-locals/
+https://medium.com/eightshapes-llc/tokens-in-design-systems-25dd82d58421
+https://bradfrost.com/blog/post/creating-themeable-design-systems/
+
+*/
+
+
+.root-frontend {
+  --color-primary--light: var(--my-custom-theme-10); /* need contrast 4.5:1 */
+  --color-primary--medium:var(--my-custom-theme-10);
+  --color-primary--dark: var(--color--theme-50);
+
+  --color-neutral--light: #ccc; /* Grays or whatevs */
+  --color-neutral--medium: #777;
+  --color-neutral--dark: #222;
+
+  --color-highlight: red;
+
+  --notification-background: xxx;
+  --notification-color-error: xxx;
+  --notification-color-success: xxx;
+  --notification-color-warning: xxx;
+
+  /* Explain what "canvas" means. */
+  --color-canvas: xxx;
+  --color-canvas-neutral: xxx;
+  --color-canvas-text: xxx;
+
+  --spacing-05: calc(0.5 * var(--spacing-1));
+  --spacing-1: 10px;
+  --spacing-2: calc(2 * var(--spacing-1));
+  --spacing-3: calc(3 * var(--spacing-1));
+  --spacing-4: calc(4 * var(--spacing-1));
+  --spacing-5: calc(5 * var(--spacing-1));
+
+  --text-on-light: xxx;
+  --text-on-dark: xxx;
+  --text-on-gray: xxx;
+
+  --font-family: sans;
+
+  --font-size-xs: 13px;
+  --font-size-s: 14px;
+  --font-size-m: 16px;
+  --font-size-l: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 23px;
+  --font-size-3xl: 26px;
+  --font-size-4xl: 29px;
+  --font-size-5xl: 32px;
+
+  --line-height-xs: 13px;
+  --line-height-s: 14px;
+  --line-height-m: 16px;
+  --line-height-l: 18px;
+  --line-height-xl: 20px;
+  --line-height-2xl: 23px;
+  --line-height-3xl: 26px;
+  --line-height-4xl: 29px;
+  --line-height-5xl: 32px;
+
+  /* form colors? */
+
+  /* focus-ring colors? */
+
+  /* Button colors?
+   --button-primary-bg
+   --button-action-bg
+
+
+  */
+
+  --form-background: xxx;
+  --form-border: xxx;
+  --form-text: xxx;
+  --form-padding: xxx;
+
+  --form-button-background: xxx;
+  --form-button-text: xxx;
+
+  --button-action: xxx;
+
+
+  --link-color: xxx;
+}
