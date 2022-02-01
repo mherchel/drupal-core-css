@@ -5,6 +5,7 @@ https://bradfrost.com/blog/post/creating-themeable-design-systems/
 
 */
 
+/* NEED PREFIX */
 
 .root-frontend {
   --color-primary--light: var(--my-custom-theme-10); /* need contrast 4.5:1 */
@@ -26,6 +27,8 @@ https://bradfrost.com/blog/post/creating-themeable-design-systems/
   --color-canvas: xxx;
   --color-canvas-neutral: xxx;
   --color-canvas-text: xxx;
+  
+  --border-radius: 2px;
 
   --spacing-05: calc(0.5 * var(--spacing-1));
   --spacing-1: 10px;
