@@ -6,6 +6,7 @@ https://bradfrost.com/blog/post/creating-themeable-design-systems/
 */
 
 /* NEED PREFIX */
+/* MAYBE D9- D10- D11- THEN WE CAN DEPRECATE EASILY!!!! */
 
 .root-frontend {
   --color-primary--light: var(--my-custom-theme-10); /* need contrast 4.5:1 */
