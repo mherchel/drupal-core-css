@@ -31,12 +31,16 @@ https://bradfrost.com/blog/post/creating-themeable-design-systems/
   
   --border-radius: 2px;
 
-  --spacing-05: calc(0.5 * var(--spacing-1));
-  --spacing-1: 10px;
-  --spacing-2: calc(2 * var(--spacing-1));
-  --spacing-3: calc(3 * var(--spacing-1));
-  --spacing-4: calc(4 * var(--spacing-1));
-  --spacing-5: calc(5 * var(--spacing-1));
+
+  --spacing: 16px;
+  --spacing-xs: calc(0.5 * var(--spacing));
+  --spacing-s: calc(0.75 * var(--spacing));
+  --spacing-m: var(--spacing);
+  --spacing-l: calc(2 * var(--spacing));
+  --spacing-xl: calc(3 * var(--spacing));
+  --spacing-2xl: calc(4 * var(--spacing));
+  --spacing-3xl: calc(5 * var(--spacing));
+  
 
   --text-on-light: xxx;
   --text-on-dark: xxx;
