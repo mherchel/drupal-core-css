@@ -28,9 +28,6 @@ https://bradfrost.com/blog/post/creating-themeable-design-systems/
   --color-canvas: #fff;
   --color-canvas-neutral: #eee;
   --color-canvas-text: var(--text-on-light);
-  
-  --border-radius: 2px;
-
 
   --spacing: 16px;
   --spacing-xs: calc(0.5 * var(--spacing));
@@ -67,27 +64,5 @@ https://bradfrost.com/blog/post/creating-themeable-design-systems/
   --line-height-4xl: 29px;
   --line-height-5xl: 32px;
 
-  /* form colors? */
-
-  /* focus-ring colors? */
-
-  /* Button colors?
-   --button-primary-bg
-   --button-action-bg
-
-
-  */
-
-  --form-background: xxx;
-  --form-border: xxx;
-  --form-text: xxx;
-  --form-padding: xxx;
-
-  --form-button-background: xxx;
-  --form-button-text: xxx;
-
-  --button-action: xxx;
-
-
-  --link-color: xxx;
+  --link-color: var(--color-primary-medium);
 }
