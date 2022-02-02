@@ -42,9 +42,9 @@ https://bradfrost.com/blog/post/creating-themeable-design-systems/
   --spacing-3xl: calc(5 * var(--spacing));
   
 
-  --text-on-light: xxx;
-  --text-on-dark: xxx;
-  --text-on-gray: xxx;
+  --text-on-light: var(--color-neutral--medium);
+  --text-on-dark: var(--color-neutral--light);
+  --text-on-gray: var(--color-neutral--dark);
 
   --font-family: sans;
 
