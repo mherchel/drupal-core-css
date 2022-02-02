@@ -28,13 +28,13 @@ https://bradfrost.com/blog/post/creating-themeable-design-systems/
   --color-canvas: #fff;
   --color-canvas--dark: #222;
   --color-canvas--neutral: #eee;
-  --color-canvas--text: var(--text-on-light);
   
   /* Hyperlink default color */
   --color-link: var(--color-primary-medium);
   
   /*  Helper variables to meet WCAG contrast ratios. */
   --color-text-on-light: var(--color-neutral--medium); /* Must meet 4.5:1 contrast ratio over --color-canvas */
+  --color-text-on-neutral: var(--color-neutral--dark); /* Must meet 4.5:1 contrast ratio over --color-canvas--neutral */
   --color-text-on-dark: var(--color-neutral--light); /* Must meet 4.5:1 contrast ratio over --color-canvas--dark */
 
  /*
