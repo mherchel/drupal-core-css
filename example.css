@@ -17,30 +17,37 @@ https://bradfrost.com/blog/post/creating-themeable-design-systems/
   --color-neutral--medium: #777;
   --color-neutral--dark: #222;
 
-  --color-highlight: red;
-
-  --notification-background: xxx;
-  --notification-color-error: xxx;
-  --notification-color-success: xxx;
-  --notification-color-warning: xxx;
+  --color-notification--background: black;
+  --color-notification--error: red;
+  --color-notification--success: green;
+  --color-notification--warning: orange;
 
   /* Explain what "canvas" means. */
   --color-canvas: #fff;
-  --color-canvas-neutral: #eee;
-  --color-canvas-text: var(--text-on-light);
+  --color-canvas--neutral: #eee;
+  --color-canvas--text: var(--text-on-light);
+  
+  --color-link: var(--color-primary-medium);
+  
+  --color-text-on-light: var(--color-neutral--medium);
+  --color-text-on-dark: var(--color-neutral--light);
 
+ /*
+  * Spacing units
+  */
   --spacing: 16px;
-  --spacing-xs: calc(0.5 * var(--spacing));
-  --spacing-s: calc(0.75 * var(--spacing));
-  --spacing-m: var(--spacing);
-  --spacing-l: calc(2 * var(--spacing));
-  --spacing-xl: calc(3 * var(--spacing));
-  --spacing-2xl: calc(4 * var(--spacing));
-  --spacing-3xl: calc(5 * var(--spacing));
+  --spacing--xs: calc(0.5 * var(--spacing));
+  --spacing--s: calc(0.75 * var(--spacing));
+  --spacing--m: var(--spacing);
+  --spacing--l: calc(2 * var(--spacing));
+  --spacing--xl: calc(3 * var(--spacing));
+  --spacing--2xl: calc(4 * var(--spacing));
+  --spacing--3xl: calc(5 * var(--spacing));
   
 
-  --text-on-light: var(--color-neutral--medium);
-  --text-on-dark: var(--color-neutral--light);
+ /*
+  * Typography
+  */
 
   --font-family: sans;
 
@@ -63,6 +70,4 @@ https://bradfrost.com/blog/post/creating-themeable-design-systems/
   --line-height-3xl: 26px;
   --line-height-4xl: 29px;
   --line-height-5xl: 32px;
-
-  --link-color: var(--color-primary-medium);
 }
