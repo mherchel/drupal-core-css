@@ -25,9 +25,9 @@ https://bradfrost.com/blog/post/creating-themeable-design-systems/
   --notification-color-warning: xxx;
 
   /* Explain what "canvas" means. */
-  --color-canvas: xxx;
-  --color-canvas-neutral: xxx;
-  --color-canvas-text: xxx;
+  --color-canvas: #fff;
+  --color-canvas-neutral: #eee;
+  --color-canvas-text: var(--text-on-light);
   
   --border-radius: 2px;
 
@@ -44,7 +44,6 @@ https://bradfrost.com/blog/post/creating-themeable-design-systems/
 
   --text-on-light: var(--color-neutral--medium);
   --text-on-dark: var(--color-neutral--light);
-  --text-on-gray: var(--color-neutral--dark);
 
   --font-family: sans;
 
