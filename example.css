@@ -16,69 +16,69 @@ Create card component in each theme.
 .root-frontend /* or .root-admin */ {
   
 /*  @todo Why are we adding these custom properties and not others  */
-  --color-primary--light: var(--my-custom-theme-10); /* need contrast 4.5:1 */
-  --color-primary--medium:var(--my-custom-theme-10);
-  --color-primary--dark: var(--color--theme-50);
+  --drupal-color-primary--light: var(--my-custom-theme-10); /* need contrast 4.5:1 */
+  --drupal-color-primary--medium:var(--my-custom-theme-10);
+  --drupal-color-primary--dark: var(--color--theme-50);
 
 /*  @todo explain neutral  */
-  --color-neutral--light: #ccc; /* Grays or whatevs */
-  --color-neutral--medium: #777;
-  --color-neutral--dark: #222;
+  --drupal-color-neutral--light: #ccc; /* Grays or whatevs */
+  --drupal-color-neutral--medium: #777;
+  --drupal-color-neutral--dark: #222;
 
-  --color-notification--background: black;
-  --color-notification--error: red;
-  --color-notification--success: green;
-  --color-notification--warning: orange;
-  --color-notification--status: blue;
+  --drupal-color-notification--background: black;
+  --drupal-color-notification--error: red;
+  --drupal-color-notification--success: green;
+  --drupal-color-notification--warning: orange;
+  --drupal-color-notification--status: blue;
 
   /* @todo explain Canvas is the background. */
-  --color-canvas: #fff;
-  --color-canvas--dark: #222;
-  --color-canvas--neutral: #eee;
+  --drupal-color-canvas: #fff;
+  --drupal-color-canvas--dark: #222;
+  --drupal-color-canvas--neutral: #eee;
   
   /* Hyperlink default color */
-  --color-link: var(--color-primary-medium);
+  --drupal-color-link: var(--color-primary-medium);
   
   /*  Helper variables to meet WCAG contrast ratios. */
-  --color-text-on-light: var(--color-neutral--medium); /* Must meet 4.5:1 contrast ratio over --color-canvas */
-  --color-text-on-neutral: var(--color-neutral--dark); /* Must meet 4.5:1 contrast ratio over --color-canvas--neutral */
-  --color-text-on-dark: var(--color-neutral--light); /* Must meet 4.5:1 contrast ratio over --color-canvas--dark */
+  --drupal-color-text-on-light: var(--color-neutral--medium); /* Must meet 4.5:1 contrast ratio over --color-canvas */
+  --drupal-color-text-on-neutral: var(--color-neutral--dark); /* Must meet 4.5:1 contrast ratio over --color-canvas--neutral */
+  --drupal-color-text-on-dark: var(--color-neutral--light); /* Must meet 4.5:1 contrast ratio over --color-canvas--dark */
 
  /*
   * Spacing units
   */
-  --spacing: 16px;
-  --spacing--xs: calc(0.5 * var(--spacing));
-  --spacing--s: calc(0.75 * var(--spacing));
-  --spacing--m: var(--spacing);
-  --spacing--l: calc(2 * var(--spacing));
-  --spacing--xl: calc(3 * var(--spacing));
-  --spacing--2xl: calc(4 * var(--spacing));
-  --spacing--3xl: calc(5 * var(--spacing));
+  --drupal-spacing: 16px;
+  --drupal-spacing--xs: calc(0.5 * var(--spacing));
+  --drupal-spacing--s: calc(0.75 * var(--spacing));
+  --drupal-spacing--m: var(--spacing);
+  --drupal-spacing--l: calc(2 * var(--spacing));
+  --drupal-spacing--xl: calc(3 * var(--spacing));
+  --drupal-spacing--2xl: calc(4 * var(--spacing));
+  --drupal-spacing--3xl: calc(5 * var(--spacing));
   
  /*
   * Typography
   */
 
-  --font-family: sans;
+  --drupal-font-family: sans;
 
-  --font-size-xs: 13px;
-  --font-size-s: 14px;
-  --font-size-m: 16px;
-  --font-size-l: 18px;
-  --font-size-xl: 20px;
-  --font-size-2xl: 23px;
-  --font-size-3xl: 26px;
-  --font-size-4xl: 29px;
-  --font-size-5xl: 32px;
+  --drupal-font-size-xs: 13px;
+  --drupal-font-size-s: 14px;
+  --drupal-font-size-m: 16px;
+  --drupal-font-size-l: 18px;
+  --drupal-font-size-xl: 20px;
+  --drupal-font-size-2xl: 23px;
+  --drupal-font-size-3xl: 26px;
+  --drupal-font-size-4xl: 29px;
+  --drupal-font-size-5xl: 32px;
 
-  --line-height-xs: 13px;
-  --line-height-s: 14px;
-  --line-height-m: 16px;
-  --line-height-l: 18px;
-  --line-height-xl: 20px;
-  --line-height-2xl: 23px;
-  --line-height-3xl: 26px;
-  --line-height-4xl: 29px;
-  --line-height-5xl: 32px;
+  --drupal-line-height-xs: 13px;
+  --drupal-line-height-s: 14px;
+  --drupal-line-height-m: 16px;
+  --drupal-line-height-l: 18px;
+  --drupal-line-height-xl: 20px;
+  --drupal-line-height-2xl: 23px;
+  --drupal-line-height-3xl: 26px;
+  --drupal-line-height-4xl: 29px;
+  --drupal-line-height-5xl: 32px;
 }
