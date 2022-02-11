@@ -8,11 +8,15 @@ https://bradfrost.com/blog/post/creating-themeable-design-systems/
 /* NEED PREFIX */
 /* MAYBE D9- D10- D11- THEN WE CAN DEPRECATE EASILY!!!! */
 
+/* @todo explain .root-frontend .root-admin - lauriii */
 .root-frontend /* or .root-admin */ {
+  
+/*  @todo Why are we adding these custom properties and not others  */
   --color-primary--light: var(--my-custom-theme-10); /* need contrast 4.5:1 */
   --color-primary--medium:var(--my-custom-theme-10);
   --color-primary--dark: var(--color--theme-50);
 
+/*  @todo explain neutral  */
   --color-neutral--light: #ccc; /* Grays or whatevs */
   --color-neutral--medium: #777;
   --color-neutral--dark: #222;
@@ -23,7 +27,7 @@ https://bradfrost.com/blog/post/creating-themeable-design-systems/
   --color-notification--warning: orange;
   --color-notification--status: blue;
 
-  /* Canvas is the background. */
+  /* @todo explain Canvas is the background. */
   --color-canvas: #fff;
   --color-canvas--dark: #222;
   --color-canvas--neutral: #eee;
@@ -48,7 +52,6 @@ https://bradfrost.com/blog/post/creating-themeable-design-systems/
   --spacing--2xl: calc(4 * var(--spacing));
   --spacing--3xl: calc(5 * var(--spacing));
   
-
  /*
   * Typography
   */
