@@ -20,6 +20,7 @@ Create card component in each theme.
   --drupal-color-neutral-dark: #222;
 
   --drupal-color-notification-background: black;
+  --drupal-color-notification-text: var(--color--white);
   --drupal-color-notification-error: red;
   --drupal-color-notification-success: green;
   --drupal-color-notification-warning: orange;
@@ -37,7 +38,8 @@ Create card component in each theme.
   --drupal-color-text-on-light: var(--color-neutral-medium); /* Must meet 4.5:1 contrast ratio over --color-canvas */
   --drupal-color-text-on-neutral: var(--color-neutral-dark); /* Must meet 4.5:1 contrast ratio over --color-canvas--neutral */
   --drupal-color-text-on-dark: var(--color-neutral-light); /* Must meet 4.5:1 contrast ratio over --color-canvas--dark */
-
+  --drupal-color-text-on-primary: var(--color--white); /* Meets 4.5:1 contrast ratio against --drupal-color-primary-medium. */
+  
  /*
   * Spacing units
   */
