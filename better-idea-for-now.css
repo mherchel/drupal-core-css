@@ -1,1 +1,7 @@
 
+.root-olivero {
+  --any-variables-i-want: 'xxx';
+  --font-sm: 1px;
+  --font-xl: 1000px;
+  
+}
